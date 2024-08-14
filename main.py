@@ -82,9 +82,10 @@ while True:
     if key == ord("q"):
         break
 
-clean_thread.start()
 
 video.release()
+
+clean_thread.start()
 
 
 
